@@ -1,0 +1,12 @@
+ol {
+	list-style-type:upper-roman;
+	font-size:36px;
+	color:blue;
+	font-family:newtimesroman;
+}
+ul {
+	list-style-type:square;
+	font-size:36px;
+	color:forestgreen;
+	font-family:monospace;
+}
