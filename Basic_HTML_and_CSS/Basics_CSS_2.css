@@ -1,0 +1,30 @@
+/*For HACC step176; Used in Basic_HTML_5.html*/
+.shdw1 {
+	color:blue;
+	font-size:50px;
+	font-family:cursive;
+	text-align:center;
+	text-shadow: 2px 2px 8px #55FF55;
+}
+.shdw2	{
+	color:black;
+	font-size:50px;
+	font-family:helvetica;
+	text-align:center;
+	text-shadow: 0px 0px 8px #FF0000;
+}
+.shdw3	{
+	color:yellow;
+	font-size:50px;
+	font-family:timesnewroman;
+	text-align:center;
+	text-shadow: 3px 0px 5px #000000;
+}
+.shdw4	{
+	color:white;
+	font-size:50px;
+	font-family:geneva;
+	text-align:center;
+	text-shadow: 0px 3px 6px blueviolet;
+}		
+	

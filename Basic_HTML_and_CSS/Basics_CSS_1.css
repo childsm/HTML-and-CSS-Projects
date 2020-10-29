@@ -1,0 +1,25 @@
+.main {
+	text-align:center;
+	}
+
+p	{
+	color:blue; 
+	font-size:45px; 
+	font-family:cursive; 
+	font-variant:small-caps;
+	}
+	
+.answer	{
+	color:darkorange; 
+	font-size:60px; 
+	font-family:cursive; 
+	font-variant:small-caps;
+	}	
+	
+.orang	{
+	color:darkorange;  
+	font-size:90px; 
+	font-family:fantasy; 
+	font-variant:small-caps;
+	}		
+	
