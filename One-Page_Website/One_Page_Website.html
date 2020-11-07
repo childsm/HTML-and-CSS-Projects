@@ -4,25 +4,26 @@
 	<head>
 		<title>Puzzembly 2 Frame</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="./CSS/one_page_website.css">
 	</head>
 	
 	<body>
 		
 		<!-- Nav -->
-		<div style="background-color:lightblue">
+		<div class="nav">
 			<div>
-				<a href="#home" id="link">HOME</li></a> &nbsp;  &nbsp; 
-				<a href="#gallery" id="link">GALLERY</li></a> &nbsp;  &nbsp; 
-				<a href="#contact" id="link">CONTACT</li></a> &nbsp;  &nbsp; 		
+				<a href="#home" id="link">HOME</li></a>
+				<a href="#gallery" id="link">GALLERY</li></a>
+				<a href="#contact" id="link">CONTACT</li></a>		
 			</div>
 		</div>
 		<!-- End Nav -->
 		
 		<!-- Home -->
 		<div id="home">
-			<div style="background-color:rgba(0,0,255,0.8); background-size:800px 600px; text-align:center">
-				<div style="font-size:40px; color:white; font-frame:geneva; text-align:center; background-color:rgba(0,0,255,1)">
-					<p>Puzzembly 2 Frame</p>
+			<div>
+				<div class="">
+					<h1>Puzzembly 2 Frame</h1>
 				</div>
 				<div style="text-align:center">
 					<img src="about_1.jpg" alt="Puzzle" width="360">
@@ -65,20 +66,24 @@
 			<div id="contact">
 				<h1>Contact</h1>
 				<div>				
-					<div>
+					<div class="">
 						<h2><span>Let <em>Puzzembly 2 Frame<em> fit and lock your ideal art piece.</span>
 						</h2>
 						<h3>Contact us today with your puzzle!
 						</h3>
-						<div style="font-size:30px; font-frame:geneva">
+						<div class="contact-form">
 							<form action="" method="post">
 								<input type="text" value="Name">
-								<br><input class="rsvp" type="text" value="Email">
-								<br><input class="rsvp" type="text" value="Phone Number">
-								<br><input class="rsvp" type="text" value="Puzzle Width">
-								<input class="rsvp" type="text" value="Puzzle Height">
-								<input class="rsvp" type="text" value="Puzzle Piece Quantity">
-								<br><input type="submit" value="Submit">							
+								<input class="rsvp" type="text" value="Email">
+								<input class="rsvp" type="text" value="Phone Number">
+								<div class="puzzle-entry">
+									<input class="rsvp" type="text" value="Puzzle Width">
+									<input class="rsvp" type="text" value="Puzzle Height">
+									<input class="rsvp" type="text" value="Puzzle Piece Quantity">
+								</div>
+								<div class="submit">
+								<input type="submit" value="Submit">
+								</div>							
 							</form>
 						</div>								
 					</div>
