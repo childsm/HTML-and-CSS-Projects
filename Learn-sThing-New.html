@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Map With Click Areas</title>
+        <link rel="stylesheet" href="New_css-code.css">
+    </head>
+
+    <body>
+        
+        <!-- AN IMAGE MAP WITH CLICKABLE AREAS -->
+        <div class="container clearfix">
+            <span>Hover over the map to see the labels.</span>
+            <div class="float-right">
+                <img src="../us-map.png" alt="US_Map" usemap="#usmap" width="640" height="448">
+                <map name="usmap">
+                    <area shape="circle" coords="230,90,80" title="Alaska">
+                    <area shape="rect" coords="230,240,550,400" title="Continental United States">
+                    <area shape="circle" coords="50,320,50" title="Hawaii">
+                    <area shape="rect" coords="230,0,600,240" title="Canada">
+                </map>
+            </div>
+        </div>
+       
+    </body>
+</html>

@@ -1,0 +1,22 @@
+/* ===========================
+    IMAGE FLOAT RIGHT OF TEXT
+   ===========================*/
+
+.container {
+    width: 100%;
+    height: 30rem;
+    background: blue;
+    color: white;
+    font-family: cursive;
+    font-size: 2rem;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.float-right {
+    float: right;
+    margin: 0 0;
+    border: 2px solid black;
+}
