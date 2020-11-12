@@ -1,0 +1,38 @@
+/* ***********************************
+    GALLERY SECTION ANIMATION
+    ********************************** */
+
+.container {
+    position: relative;
+    width: 100%;
+    color: white;
+    font-size: 2rem;
+}
+
+.top-right {
+    position: absolute;
+    font-size: 30px;
+    line-height: 1.5em;
+    text-shadow: 2px 2px 2px red;
+    text-align: center;
+    top: 25%;
+    left: 25%;
+    transform: translate(-50%, 0);
+    width: 100%
+    z-index: 100;
+    
+    }    /*
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+    background: rbga(0,0,0, 0.5);
+    bottom: 0;
+    right: 0;
+}
+
+/*
+.text-overlay:hover {
+    opacity: 0;
+    transition: opacity 1.5s;
+    cursor: pointer;
+}
