@@ -62,14 +62,32 @@ body {
     z-index: -1;
 }
 
-.video_text {
-    background: rgba(254,254,254, .5);
+.container {
+    display: flex;
+    background: rgba(30, 144, 255, 0.3);
+    width: 100%;
+    height: 320px;
+    margin-top: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*
+.Video_Text {
+    
+    background: blue;
     color: white;
     width: 100%;
-    padding: 20px;
-    margin-top: 50%;
-    letter-spacing: 1px;
-}
+    width: 100%;
+    height: 300px;
+}*/
 
 span {
     font-family: cursive;
@@ -137,7 +155,7 @@ p   {
 
 p:hover {
     color: #00004d;
-    transition: transform 1s;
+    transition: transform 1s ease-in-out;
     transform: scale(1.01);
 }
 
@@ -219,7 +237,7 @@ center:hover {
 
 p:hover {
     color: #00004d;
-    transition: transform 1s;
+    transition: transform 1s ease-in-out;
     transform: scale(1.01);
 }
 
@@ -230,7 +248,7 @@ h1:hover {
 
 img:hover {
     filter: grayscale(5%);
-    transition: transform 1s;
+    transition: transform 1s ease-in-out;
     transform: scale(1.1);
 }
 
