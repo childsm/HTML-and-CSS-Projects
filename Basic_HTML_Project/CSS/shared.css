@@ -277,11 +277,11 @@ section {
     border-radius: 7px;
     background: #13161b;
     box-shadow: inset 0px 3px 0px 0px rgba(5,5,5, .15);
-    font-family: 'Raleway', sans-serif;
+    font-family: Raleway, sans-serif;
 }
 
 .reservation input[type="text"]:hover {
-    box-shadow: inset 0px 0px 18px 0px rgba(100,65,0, .8);
+    box-shadow: inset 0px 0px 18px 0px rgba(255,255,255, .8);
 }
 
 .form-spacer {
