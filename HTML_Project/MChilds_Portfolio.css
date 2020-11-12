@@ -35,59 +35,35 @@ body {
 .navbar a.active {
     background: darkgrey;
 }
-/*
-.fullscreen-bg {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: hidden;
-    z-index: -1;
-}*/
 
 #Coding_Video {
-    /*position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    
-     */
     position: fixed;
+    margin-left: auto;
+    margin-left: auto;
+    top: 0;
+    /*padding-top: 5%;
+    left: 0;
+    transform-origin: (-25% 0%);  
+    
     right: 0;
     bottom: 0;
-    width: 100%;
+    object-fit: cover; 
+    width: 100%;*/
     height: auto;    
     z-index: -1;
 }
 
 .container {
     display: flex;
-    background: rgba(30, 144, 255, 0.3);
+    background: rgba(30, 144, 255, 0.2);
     width: 100%;
-    height: 320px;
-    margin-top: 25%;
+    height: 35%;
+    margin-top: 30%;
     margin-left: auto;
     margin-right: auto;
     align-items: center;
     justify-content: center;
 }
-
-.container:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-/*
-.Video_Text {
-    
-    background: blue;
-    color: white;
-    width: 100%;
-    width: 100%;
-    height: 300px;
-}*/
 
 span {
     font-family: cursive;
@@ -151,12 +127,6 @@ p   {
     font-size: 18px;
     padding-left: 20px;
     padding-right:20px;
-}
-
-p:hover {
-    color: #00004d;
-    transition: transform 1s ease-in-out;
-    transform: scale(1.01);
 }
 
 center {
@@ -237,7 +207,7 @@ center:hover {
 
 p:hover {
     color: #00004d;
-    transition: transform 1s ease-in-out;
+    transition: transform 1s;
     transform: scale(1.01);
 }
 
@@ -248,7 +218,7 @@ h1:hover {
 
 img:hover {
     filter: grayscale(5%);
-    transition: transform 1s ease-in-out;
+    transition: transform 1s;
     transform: scale(1.1);
 }
 
