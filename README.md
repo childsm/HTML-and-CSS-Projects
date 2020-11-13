@@ -2,8 +2,8 @@
 Projects for HTML and CSS course
 
 ## Projects
-* (https://github.com/childsm/HTML-and-CSS-Projects/tree/main/Basic_HTML_Project101 "Puppy Therapy Site")
-* (https://github.com/childsm/HTML-and-CSS-Projects/tree/main/Bootstrap4_project "Movie Theater Site")
+* Puppy Therapy Site
+* Movie Theater Site
 
 ### 101 Puppy Therapy Site
 
