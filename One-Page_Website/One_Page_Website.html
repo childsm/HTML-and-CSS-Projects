@@ -4,6 +4,7 @@
 	<head>
 		<title>Puzzembly 2 Frame</title>
 		<meta charset="utf-8">
+		<script src="JS/one_page-website.js" deferdd></script>
 		<link rel="stylesheet" type="text/css" href="./CSS/one_page_website.css">
 	</head>
 	
@@ -37,31 +38,79 @@
 		<center>
 		<iframe width="420" height="236" src="https://www.youtube.com/embed/gGx0qe8gUwU" frameborder="0" allow="accelerometer; autoplay=0; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 		</center>
-		<!-- End Home -->
 		
 		<!-- Gallery -->
-		<section>
-			<div id="gallery" style="font-size:40">
-				<h1>Gallery</h1>
-				<div>
-					
-					<!-- Container 1 -->
-					<div>
-						<div style="background:rgba(100,200,100,0.5); border:3px solid black; text-align:center">
-							<img src="gallery_2.jpg" alt="Puzzle" width="360">
-							<img src="gallery_3.jpg" alt="Puzzle" width="410">
-							<img src="gallery_4.jpg" alt="Puzzle" width="480">
-							<br>
-							<img src="gallery_9.jpg" alt="Puzzle" width="700">
-							<img src="gallery_10.jpg" alt="Puzzle" width="360">
-						</div>
-					</div>								
-					<!-- End Container 1 -->
-					
+		<div id="gallery">
+			<h1>Gallery</h1>
+
+			<!-- Photos being used to open the lightbox -->
+			<div class="photo-container">
+				<div class="row">
+					<div class="column">
+						<img src="img1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+					</div>
+					<div class="column">
+						<img src="img2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+					</div>
+					<div class="column">
+						<img src="img3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+					</div>
+					<div class="column">
+						<img src="img4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+					</div>				
+				</div>
+			</div>	
+						
+			<!-- The Modal/Lightbox -->
+			<div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+	
+					<div class="mySlides">
+						<div class="numbertext">1 / 4</div>
+						<img src="img1_wide.jpg" style="width:100%">
+					</div>
+	
+					<div class="mySlides">
+						<div class="numbertext">2 / 4</div>
+						<img src="img2_wide.jpg" style="width:100%">
+					</div>
+	
+					<div class="mySlides">
+						<div class="numbertext">3 / 4</div>
+						<img src="img3_wide.jpg" style="width:100%">
+					</div>
+	
+					<div class="mySlides">
+						<div class="numbertext">4 / 4</div>
+						<img src="img4_wide.jpg" style="width:100%">
+					</div>
+			
+					<!-- Next/Previous controls -->
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	
+					<!-- Caption text -->
+					<div class="caption-container">
+						<p id="caption"></p>
+					</div>
+	
+					<!-- Thumbnail image controls -->
+					<div class="column">
+						<img class="demo cursor" src="img1_wide.jpg" onclick="currentSlide(1)" alt="Puzzle">
+					</div>
+					<div class="column">
+						<img class="demo cursor" src="img2_wide.jpg" onclick="currentSlide(2)" alt="Puzzle">
+					</div>
+					<div class="column">
+						<img class="demo cursor" src="img3_wide.jpg" onclick="currentSlide(3)" alt="Puzzle">
+					</div>
+					<div class="column">
+						<img class="demo cursor" src="img4_wide.jpg" onclick="currentSlide(4)" alt="Puzzle">
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- End Gallery -->
 		
 		<!-- Contact -->
 		<section>
