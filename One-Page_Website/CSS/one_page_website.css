@@ -33,6 +33,7 @@ iframe {
 
 .nav {
     background-color:lightblue;
+    position: fixed;
 }
 
 #home {
@@ -41,10 +42,14 @@ iframe {
     text-align: center;
 }
 
+*   {
+    box-sizing: border-box;
+}
+
 /* ===================================
     MODAL SECTION
    =================================== */  
-   .row .column {
+.row .column {
     padding: 0 8px;
 }
   
@@ -71,7 +76,7 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     align-content: stretch;
-    
+    margin: 10px auto;
 } 
 
 /* The Modal (background) */
